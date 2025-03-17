@@ -166,7 +166,7 @@ void setup() {
   Serial.printf("IP address: %s\n", WiFi.localIP().toString().c_str());
 
   // Initialize the dashboard
-  dashboard.begin("ESP32 Dashboard", "Advanced Example");
+  dashboard.begin("ESP32 Dashboard", "Advanced Example", "Advanced Dashboard");
   Serial.printf("Dashboard available at: http://%s\n",
                 dashboard.getIPAddress().c_str());
 
