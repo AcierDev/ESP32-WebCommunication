@@ -1,0 +1,33 @@
+# Syntax Coloring Map For ESP32-WebCommunication Library
+
+# Datatypes (KEYWORD1)
+WebDashboard	KEYWORD1
+ComponentType	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin	KEYWORD2
+update	KEYWORD2
+getIPAddress	KEYWORD2
+setMachineState	KEYWORD2
+onStateChange	KEYWORD2
+addButton	KEYWORD2
+addToggle	KEYWORD2
+addSlider	KEYWORD2
+addTextInput	KEYWORD2
+addSelect	KEYWORD2
+addPinMonitor	KEYWORD2
+log	KEYWORD2
+logf	KEYWORD2
+updateValue	KEYWORD2
+isOnline	KEYWORD2
+enableDebugLogging	KEYWORD2
+isDebugLoggingEnabled	KEYWORD2
+
+# Constants (LITERAL1)
+LOG_INFO	LITERAL1
+LOG_WARNING	LITERAL1
+LOG_ERROR	LITERAL1
+LOG_DEBUG	LITERAL1
+MAX_DASHBOARD_COMPONENTS	LITERAL1
+MAX_DASHBOARD_CLIENTS	LITERAL1
+MAX_LOG_ENTRIES	LITERAL1 
